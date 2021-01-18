@@ -1,0 +1,57 @@
+Setup
+
+To run the program, make sure you have all the packages installed.
+
+You will need to set:
+set FLASK_APP=image_repo.py
+set FLASK_ENV=development
+
+You will need to pip install:
+
+bcrypt
+blinker
+certifi
+cffi
+click
+Flask
+Flask-Bcrypt
+Flask-Login
+Flask-Mail
+Flask-SQLAlchemy
+Flask-WTF
+itsdangerous
+Jinja2
+MarkupSafe
+Pillow
+pycparser
+six
+SQLAlchemy
+Werkzeug
+WTForms
+
+To run locally, use python .\run.py
+Connect on the browser at localhost:5000, or use the destination in the console.
+
+2 Users have been created already, however you can make your own and try uploading images yourself.
+
+The credentials for the 2 users are (in email / password format):
+
+dev@dev.com
+testing
+
+dev2@dev.com
+testing
+
+their usernames are devin and devin2 respectively, but you don't need them to login.
+
+They have both uploaded multiple private and public pictures of corgis!
+
+Use Cases:
+
+To upload your own public or private image, select "Add"
+
+To view all your accounts uploaded images, select "Account"
+
+To logout, select "Logout"
+
+To view all public uploads and all of your uploads, select "Image Repo" or "Home"
