@@ -6,28 +6,9 @@ You will need to set:
 set FLASK_APP=image_repo.py
 set FLASK_ENV=development
 
-You will need to pip install:
+You will need to pip install the packages using pip install -r requirements.txt
+This file holds the packages used in this project.
 
-bcrypt
-blinker
-certifi
-cffi
-click
-Flask
-Flask-Bcrypt
-Flask-Login
-Flask-Mail
-Flask-SQLAlchemy
-Flask-WTF
-itsdangerous
-Jinja2
-MarkupSafe
-Pillow
-pycparser
-six
-SQLAlchemy
-Werkzeug
-WTForms
 
 To run locally, use python .\run.py
 Connect on the browser at localhost:5000, or use the destination in the console.
